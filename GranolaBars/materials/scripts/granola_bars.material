@@ -1,0 +1,13 @@
+material GranolaBars/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture granola_bars_texture.png
+      }
+    }
+  }
+}

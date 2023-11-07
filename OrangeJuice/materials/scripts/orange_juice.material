@@ -6,7 +6,7 @@ material OrangeJuice/Diffuse
     {
       texture_unit
       {
-        texture texture.png
+        texture orange_juice_texture.png
       }
     }
   }

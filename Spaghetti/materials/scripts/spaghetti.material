@@ -1,0 +1,13 @@
+material Spaghetti/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture spaghetti_texture.png
+      }
+    }
+  }
+}

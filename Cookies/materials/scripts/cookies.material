@@ -1,0 +1,13 @@
+material Cookies/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture cookies_texture.png
+      }
+    }
+  }
+}

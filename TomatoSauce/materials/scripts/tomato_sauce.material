@@ -1,0 +1,13 @@
+material TomatoSauce/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture tomato_sauce_texture.png
+      }
+    }
+  }
+}
