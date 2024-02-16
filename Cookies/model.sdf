@@ -10,7 +10,7 @@
           <ixz>0</ixz>
           <iyy>0.0035864</iyy>
           <iyz>0</iyz>
-          <izz>0.001389897</izz>
+          <izz>0.0013899</izz>
         </inertia>
         <pose>0 0 0 0 1.57 0</pose>
       </inertial>
@@ -57,16 +57,16 @@
         <surface>
           <friction>
             <ode>
-              <mu>0.6</mu>
-              <mu2>0.6</mu2>
-              <fdir1>0.707 0.707 0</fdir1>
+              <mu>10</mu>
+              <mu2>10</mu2>
+              <fdir1>0 0 0</fdir1>
               <slip1>0</slip1>
               <slip2>0</slip2>
             </ode>
             <torsional>
-              <coefficient>0.6</coefficient>
-              <patch_radius>0.5</patch_radius>
-              <surface_radius>0.5</surface_radius>
+              <coefficient>2</coefficient>
+              <patch_radius>0.75</patch_radius>
+              <surface_radius>0.75</surface_radius>
               <use_patch_radius>0</use_patch_radius>
               <ode>
                 <slip>0</slip>
@@ -84,8 +84,8 @@
             <ode>
               <soft_cfm>0</soft_cfm>
               <soft_erp>0.2</soft_erp>
-              <kp>1e+10</kp>
-              <kd>1e+08</kd>
+              <kp>1e+07</kp>
+              <kd>100000</kd>
               <max_vel>0.01</max_vel>
               <min_depth>0</min_depth>
             </ode>
@@ -94,8 +94,8 @@
               <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
               <soft_cfm>0</soft_cfm>
               <soft_erp>0.2</soft_erp>
-              <kp>1e+12</kp>
-              <kd>1e+10</kd>
+              <kp>1e+07</kp>
+              <kd>100000</kd>
             </bullet>
           </contact>
         </surface>

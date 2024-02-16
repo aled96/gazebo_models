@@ -4,7 +4,7 @@
     <link name='link'>
       <inertial>
         <mass>20.0</mass>
-        <pose frame=''>0 0 0 0 0 0</pose>
+        <pose frame=''>0 0 0.16 0 0 0</pose>
         <inertia>
       	  <ixx> 1.517333333 </ixx>
       	  <ixy> 0.0 </ixy>
@@ -13,7 +13,7 @@
       	  <iyz> 0.0 </iyz>
       	  <izz> 3.466666667 </izz>
         </inertia>
-        <pose>0 0 0.275 0 0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
       </inertial>
       <self_collide>0</self_collide>
       <enable_wind>0</enable_wind>
@@ -46,12 +46,11 @@
       <collision name='collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>100</max_contacts>
-        <pose>0 0 0 0 -0 0</pose>
+        <pose>0 0 0.175 0 -0 0</pose>
         <geometry>
-          <mesh>
-            <uri>/home/alessio/alessio_ws/src/world_generator/data/../config/meshes/WoodenPalletPile1/WoodenPalletPile1.dae</uri>
-            <scale>1 1 1</scale>
-          </mesh>
+          <box>
+            <size>1.20 0.80 0.505</size>
+          </box>
         </geometry>
         <surface>
           <friction>
