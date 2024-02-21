@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="wheel_valve_large_wall">
+  <model name="wall_lever1">
   
     <link name="wall">
       <inertial>
@@ -39,7 +39,7 @@
       <child>wall</child>
     </joint>
     
-    <link name="valve">
+    <link name="lever1">
       <pose>0.614335 -0.0092 1.2 0 0 0</pose>
       <inertial>
         <mass>7.8219</mass>
@@ -56,7 +56,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://wall_wheel2/meshes/wall_valve.dae</uri>
+            <uri>model://lever1/meshes/lever1.dae</uri>
           </mesh>
         </geometry>
         <surface>
@@ -79,19 +79,19 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://wall_wheel2/meshes/wall_valve.dae</uri>
+            <uri>model://lever1/meshes/lever1.dae</uri>
           </mesh>
         </geometry>
       </visual>
     </link>>
     <joint name="joint" type="revolute">
       <parent>wall</parent>
-      <child>valve</child>
+      <child>lever1</child>
       <axis>
         <xyz>0 1 0</xyz>
         <limit>
-          <lower>-12.56</lower>
-          <upper>12.56</upper>
+          <lower>-3.14</lower>
+          <upper>3.14</upper>
         </limit>
         <dynamics>
           <!--velocity dependent viscous damping coefficient of the joint-->
