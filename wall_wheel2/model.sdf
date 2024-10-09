@@ -95,9 +95,9 @@
         </limit>
         <dynamics>
           <!--velocity dependent viscous damping coefficient of the joint-->
-          <damping>0.2</damping>
+          <damping>0.1</damping>
           <!--default 0, static friction value of the joint-->
-          <friction>0.5</friction>
+          <friction>0.2</friction>
         </dynamics>
         <use_parent_model_frame>false</use_parent_model_frame>
       </axis>
