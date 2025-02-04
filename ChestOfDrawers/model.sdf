@@ -1,0 +1,248 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='ChestOfDrawers'>
+    <link name='chest_of_drawers'>
+      <inertial>
+        <mass>10.0</mass>
+        <inertia>
+          <ixx>0.508333333</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.508333333</iyy>
+          <iyz>0</iyz>
+          <izz>0.416666667</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+      <pose>0 0 0 0 0 0</pose>
+      <visual name='visual_chest_of_drawers'>
+        <geometry>
+          <mesh>
+            <uri>model://ChestOfDrawers/meshes/ChestDrawer.dae</uri>
+          </mesh>
+        </geometry>
+        <material>          
+          <name>Gazebo/DarkGrey </name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </material>
+      </visual>
+      <collision name='collision_chest_of_drawers'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ChestOfDrawers/meshes/ChestDrawer.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.85</mu>
+              <mu2>0.85</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    
+    
+    <link name='drawer1'>
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.022120667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.022120667</iyy>
+          <iyz>0</iyz>
+          <izz>0.038720667</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+      <pose>0 0 -0.20 0 0 0</pose>
+      <visual name='visual_drawer1'>
+        <geometry>
+          <mesh>
+            <uri>model://ChestOfDrawers/meshes/Drawer.dae</uri>
+          </mesh>
+        </geometry>
+        <material>          
+          <name>Gazebo/Grey </name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </material>
+      </visual>
+      <collision name='collision_drawer1'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ChestOfDrawers/meshes/Drawer.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.85</mu>
+              <mu2>0.85</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    
+    <link name='drawer2'>
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.022120667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.022120667</iyy>
+          <iyz>0</iyz>
+          <izz>0.038720667</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+      <pose>0 0 0 0 0 0</pose>
+      <visual name='visual_drawer2'>
+        <geometry>
+          <mesh>
+            <uri>model://ChestOfDrawers/meshes/Drawer.dae</uri>
+          </mesh>
+        </geometry>
+        <material>          
+          <name>Gazebo/Grey </name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </material>
+      </visual>
+      <collision name='collision_drawer2'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ChestOfDrawers/meshes/Drawer.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.85</mu>
+              <mu2>0.85</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    
+    
+    <link name='drawer3'>
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.022120667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.022120667</iyy>
+          <iyz>0</iyz>
+          <izz>0.038720667</izz>
+        </inertia>
+        <pose>0 0 0 0 0 0</pose>
+      </inertial>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+      <pose>0 0 0.2 0 0 0</pose>
+      <visual name='visual_drawer3'>
+        <geometry>
+          <mesh>
+            <uri>model://ChestOfDrawers/meshes/Drawer.dae</uri>
+          </mesh>
+        </geometry>
+        <material>          
+          <name>Gazebo/Grey </name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </material>
+      </visual>
+      <collision name='collision_drawer3'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://ChestOfDrawers/meshes/Drawer.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>0.85</mu>
+              <mu2>0.85</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+    </link>
+    
+    
+    <joint name="jnt_1" type="prismatic">
+        <parent> chest_of_drawers </parent>
+        <child> drawer1 </child>
+        <pose> 0.0 0.0 0.0 0.0 0.0 0.0 </pose>
+        <axis>
+            <xyz> 0 1 0</xyz>
+            <limit>
+                <lower> -0.45 </lower>
+                <upper> 0.0 </upper>
+            </limit>  
+            <dynamics> 
+                <friction> 0.75 </friction>
+            </dynamics>       
+        </axis>
+    </joint>
+        
+    <joint name="jnt_2" type="prismatic">
+        <parent> chest_of_drawers </parent>
+        <child> drawer2 </child>
+        <pose> 0.0 0.0 0.0 0.0 0.0 0.0 </pose>
+        <axis>
+            <xyz> 0 1 0</xyz>
+            <limit>
+                <lower> -0.45 </lower>
+                <upper> 0.0 </upper>
+            </limit>    
+            <dynamics> 
+                <friction> 0.75 </friction>
+            </dynamics>     
+        </axis>
+    </joint>
+        
+    <joint name="jnt_3" type="prismatic">
+        <parent> chest_of_drawers </parent>
+        <child> drawer3 </child>
+        <pose> 0.0 0.0 0.0 0.0 0.0 0.0 </pose>
+        <axis>
+            <xyz> 0 1 0</xyz>
+            <limit>
+                <lower> -0.45 </lower>
+                <upper> 0.0 </upper>
+            </limit>
+            <dynamics> 
+                <friction> 0.75 </friction>
+            </dynamics>    
+        </axis>
+    </joint>
+    
+  </model>
+</sdf>
